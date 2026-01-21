@@ -37,7 +37,7 @@ func main() {
 	var m MAZE
 	var maze, searchType string
 
-	flag.StringVar(&maze, "file", "maze-100-steps.txt", "maze file")
+	flag.StringVar(&maze, "file", "maze.txt", "maze file")
 	flag.StringVar(&searchType, "search", "dfs", "search type")
 	flag.Parse()
 
