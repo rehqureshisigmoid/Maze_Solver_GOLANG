@@ -1,0 +1,21 @@
+# Go build files
+*.exe
+*.out
+*.test
+bin/
+
+# Go workspace
+go.work
+go.work.sum
+
+# OS files
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Ignore maze output files if generated
+maze-100-steps.txt
+maze2.txt
+
